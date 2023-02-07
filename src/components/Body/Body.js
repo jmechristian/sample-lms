@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from './Heading';
 import Timestamp from '../shared/Timestamp';
+import NextLesson from '../shared/NextLesson';
 
 const Body = () => {
   return (
@@ -130,6 +131,7 @@ const Body = () => {
             </p>
           </div>
         </div>
+        <NextLesson />
       </div>
     </>
   );

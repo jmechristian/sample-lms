@@ -11,13 +11,13 @@ const Heading = () => {
     <div className='relative w-full'>
       <div className='bg-blue-600 max-w-6xl w-full mx-auto rounded-b-lg'>
         <div className='grid grid-cols-2'>
-          <div className='p-12 flex flex-col'>
+          <div className='px-12 py-16 flex flex-col'>
             <div>
-              <h4 className='text-white text-2xl font-greycliff'>C02</h4>
+              <h4 className='text-white text-2xl font-greycliff'>C02.03</h4>
             </div>
             <div>
               <h2 className='text-white font-greycliff font-bold text-5xl'>
-                Packaging Foundations
+                Evolution of Packaging
               </h2>
             </div>
             <div className='mt-9 font-greycliff text-white text-xl'>
@@ -58,7 +58,7 @@ const Heading = () => {
               </ol>
             </div>
           </div>
-          <div className='py-12 px-12 bg-blue-800 rounded-l-xl rounded-br-lg flex flex-col gap-10'>
+          <div className='py-16 px-12 bg-blue-800 rounded-l-xl rounded-br-lg flex flex-col gap-10'>
             <div className='flex flex-col gap-3'>
               <div className='flex gap-2 items-center'>
                 <div>
