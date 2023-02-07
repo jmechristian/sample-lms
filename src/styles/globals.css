@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://use.typekit.net/qtr6hem.css');
-
 @layer base {
   html {
     @apply font-roboto;
