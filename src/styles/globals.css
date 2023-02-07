@@ -29,3 +29,8 @@
 .video-height {
   max-height: calc(100vh - 200px);
 }
+
+#scrollers::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}

@@ -13,7 +13,7 @@ const Heading = () => {
         <div className='grid grid-cols-2'>
           <div className='px-12 py-16 flex flex-col'>
             <div>
-              <h4 className='text-white text-2xl font-greycliff'>C02.03</h4>
+              <h4 className='text-white text-2xl font-greycliff'>C01.03</h4>
             </div>
             <div>
               <h2 className='text-white font-greycliff font-bold text-5xl'>
