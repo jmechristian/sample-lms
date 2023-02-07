@@ -11,7 +11,7 @@ const Heading = () => {
     <div className='relative w-full'>
       <div className='bg-blue-600 max-w-6xl w-full mx-auto rounded-b-lg'>
         <div className='grid grid-cols-2'>
-          <div className='p-9 flex flex-col'>
+          <div className='p-12 flex flex-col'>
             <div>
               <h4 className='text-white text-2xl font-greycliff'>C02</h4>
             </div>
@@ -58,7 +58,7 @@ const Heading = () => {
               </ol>
             </div>
           </div>
-          <div className='py-10 px-12 bg-blue-800 rounded-l-xl rounded-br-lg flex flex-col gap-10'>
+          <div className='py-12 px-12 bg-blue-800 rounded-l-xl rounded-br-lg flex flex-col gap-10'>
             <div className='flex flex-col gap-3'>
               <div className='flex gap-2 items-center'>
                 <div>
