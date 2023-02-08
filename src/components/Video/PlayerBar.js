@@ -10,10 +10,10 @@ const PlayerBar = () => {
     <div className='absolute left-0 right-0 bottom-0 h-20 bg-real-dark'>
       <div className='flex flex-col mt-2 px-6 gap-4'>
         <div className='w-full grid grid-cols-12 gap-1'>
-          <div className='bg-blue-800 h-2 rounded-full col-span-3 relative'>
+          <div className='bg-light-blue h-2 rounded-full col-span-3 relative'>
             <div className='absolute left-0 rounded-full aspect-square h-2 bg-white'></div>
           </div>
-          <div className='bg-blue-800 h-2 rounded-full col-span-2'></div>
+          <div className='bg-light-blue h-2 rounded-full col-span-2'></div>
           <div className='bg-zinc-800 h-2 rounded-full col-span-2'></div>
           <div className='bg-zinc-800 h-2 rounded-full col-span-5'></div>
         </div>
