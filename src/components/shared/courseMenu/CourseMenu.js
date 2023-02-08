@@ -1,14 +1,14 @@
 import React from 'react';
-import { Popover, Transition } from '@headlessui/react';
 import CourseHeader from './CourseHeader';
 import CourseItem from './CourseItem';
+import { Bars3Icon } from '@heroicons/react/24/solid';
 
-const CourseMenu = () => {
+const CourseMenu = ({ toggle }) => {
   return (
-    <>
-      <div className='relative w-full h-full'>
+    <div className='flex'>
+      <div className='relative'>
         <div
-          className='w-[440px] bg-real-dark shadow-2xl fixed z-30 left-10 top-28 bottom-10 rounded-r-lg overflow-auto'
+          className='w-[440px] bg-real-dark box-shadow-2xl rounded-r-lg relative'
           id='scrollers'
         >
           <CourseHeader id='C01' course='Packaging Foundations' />
@@ -41,10 +41,16 @@ const CourseMenu = () => {
           <CourseItem title='09. Know Your Product First' time='00:00' />
           <CourseItem title='10. Introduction to Wood' time='01:54' />
           <CourseItem title='11. Manufactuaring Wood' time='08:21' />
+          <div className='sticky bottom-0 left-0 right-0 bg-gradient-to-t from-real-dark h-[300px] z-70'></div>
         </div>
-        <div className='fixed z-50 left-10 bottom-10 bg-gradient-to-t from-real-dark h-[300px] w-[440px]'></div>
       </div>
-    </>
+      <button
+        className='w-12 h-12 bg-zinc-700 box-shadow-2xl z-[90] mt-6 flex justify-center items-center rounded-r-lg'
+        onClick={toggle}
+      >
+        <Bars3Icon className='fill-white h-6 w-6' />
+      </button>
+    </div>
   );
 };
 

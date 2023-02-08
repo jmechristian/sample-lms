@@ -1,5 +1,5 @@
 import React from 'react';
-import CourseMenu from '../shared/courseMenu/CourseMenu';
+import CourseMenuWrapper from '../shared/courseMenu/CourseMenuWrapper';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <CourseMenu />
+      <CourseMenuWrapper />
       {children}
       <Footer />
     </div>
