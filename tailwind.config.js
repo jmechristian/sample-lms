@@ -13,6 +13,10 @@ module.exports = {
       colors: {
         dark: '#1a1a1a',
         'real-dark': '#0E0E0E',
+        'light-yellow': '#ffd778',
+        'mid-blue': '#5567b0',
+        'light-blue': '#7b88c3',
+        clemson: '#f5831f',
       },
       fontFamily: {
         roboto: 'roboto, sans-serif',

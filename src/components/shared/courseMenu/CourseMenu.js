@@ -8,7 +8,7 @@ const CourseMenu = ({ toggle }) => {
     <div className='flex'>
       <div className='relative'>
         <div
-          className='w-[440px] bg-real-dark box-shadow-2xl rounded-r-lg relative'
+          className='w-[440px] bg-real-dark shadow-fix shadow-fix-fix rounded-r-lg relative'
           id='scrollers'
         >
           <CourseHeader id='C01' course='Packaging Foundations' />
@@ -45,7 +45,7 @@ const CourseMenu = ({ toggle }) => {
         </div>
       </div>
       <button
-        className='w-12 h-12 bg-zinc-700 box-shadow-2xl z-[90] mt-6 flex justify-center items-center rounded-r-lg'
+        className='w-12 h-12 bg-zinc-700 shadow-fix shadow-fix-fix z-[90] mt-6 flex justify-center items-center rounded-r-lg'
         onClick={toggle}
       >
         <Bars3Icon className='fill-white h-6 w-6' />

@@ -9,7 +9,7 @@ import Timestamp from '../shared/Timestamp';
 const Heading = () => {
   return (
     <div className='relative w-full'>
-      <div className='bg-blue-600 max-w-6xl w-full mx-auto rounded-b-lg'>
+      <div className='bg-mid-blue max-w-6xl w-full mx-auto rounded-b-lg'>
         <div className='grid grid-cols-2'>
           <div className='px-12 py-16 flex flex-col'>
             <div>
@@ -58,7 +58,7 @@ const Heading = () => {
               </ol>
             </div>
           </div>
-          <div className='py-16 px-12 bg-blue-800 rounded-l-xl rounded-br-lg flex flex-col gap-10'>
+          <div className='py-16 px-12 bg-light-blue rounded-l-xl rounded-br-lg flex flex-col gap-10'>
             <div className='flex flex-col gap-3'>
               <div className='flex gap-2 items-center'>
                 <div>
@@ -70,7 +70,7 @@ const Heading = () => {
                   </h3>
                 </div>
               </div>
-              <div className='text-blue-800 bg-white shadow-2xl w-fit px-6 py-3 rounded-lg font-bold font-greycliff'>
+              <div className='text-mid-blue bg-white shadow-2xl w-fit px-6 py-3 rounded-lg font-bold font-greycliff'>
                 Take the Quiz
               </div>
             </div>
